@@ -50,8 +50,8 @@ function add()
     newTr.appendChild(newTd3);
     newTr.appendChild(newTd4);
     newTr.appendChild(newTd5);
-    rowNo++;
     grandTotal();//updating grand total after adding a row
+    rowNo++;
 }
 
 function createRow()
