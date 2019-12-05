@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Grocery</title>
+    <link rel="stylesheet" href="grocery.css">
+    <script src="grocery.js"></script>
+</head>
+<body>
+    <div id="outerbox">
+        <div id="innerbox">
+            <form id="form">
+                <h1 id="main_heading">GROCERY LIST APP</h1>
+                Name:<br>
+                <input type="text" name="item_name" id="item_name" placeholder="Item name"><br>
+                Unit:
+                <br><input type="number" name="unit" id="unit" placeholder="units"><br>
+                Unit_Price:
+                <br><input type="text" name="unit_price" id="unit_price" placeholder="unit_price"><br>
+                <input type="button" name="add" id="add" value="ADD" onclick="createRow()"/>
+            </form>
+        </div>
+    <table id="table">
+        <tr id="rowid">
+            <td>Name</td><td>Unit</td><td>Unit Price</td><td>Total</td><td id="edtbtn">Edit/Delete</td>
+        </tr>
+    </table>
+    <form id="total">
+       <label> GrandTotal:</label>
+        <input type="display" id="display" name="display" id="display" disabled>
+    </form>
+</div>
+</body>
+</html>

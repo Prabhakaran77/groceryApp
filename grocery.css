@@ -1,0 +1,73 @@
+#form{
+    margin: 2%;
+    align-content: center;
+    margin-left: 20%;
+}
+body form #main_heading{
+    margin-left: 4%;
+}
+body{
+background-color:silver;
+}
+#outerbox{
+    background-color: silver;
+    width:100%;
+    height:100%;
+    margin:0%;
+}
+#add
+{
+    margin-left: 60%;
+    margin-bottom: 10%;
+    background: aliceblue;
+    border: 1px solid black;
+    size: 10%;
+    font-size: 140%;
+}
+#innerbox{
+    background-color: whitesmoke;
+    margin-left:20%;
+    margin-right:20%;
+}
+#table{
+    margin-left: 20%;
+}
+#rowid{
+    margin-left: 20%;
+    font-size: 150%;
+}
+table tr td {
+    border: 1px solid black;
+    color: black;
+    align-content: center;
+    
+  }
+  input[type=text]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=number]{
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=display]
+  {
+      width:10%;
+  }
+  #total{
+      margin-left: 33%;
+      font-size: 100%;
+      color: black;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+  }
+  
